@@ -91,7 +91,7 @@ This package is build on top of the `geopandas <http://geopandas.org>`_ package.
 
 .. code-block:: python
 
-    import osmnx
+    import osmnx as ox
     graph = ox.graph_from_place('Leuven, Belgium', network_type='drive')
     graph_proj = ox.project_graph(graph)
     
